@@ -28,7 +28,7 @@ and look for build folder in root directory of the project.
 
 ## Reflection
 
-This project only one npm pakage react-google-chart for teh pie chart functionality else it's a basic react app
+This project only one npm pakage react-google-chart for the pie chart functionality else it's a basic react app
 normal javascript and CSS stylings.
 
 The desgin inspiration came from my past projects experiences and some template searching on google.

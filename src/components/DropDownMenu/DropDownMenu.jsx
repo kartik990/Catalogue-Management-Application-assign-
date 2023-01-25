@@ -17,7 +17,7 @@ const DropDownMenu = ({ categories, setcatagory }) => {
         className={showMenu ? `dropMenuBtn active` : `dropMenuBtn`}
         onClick={() => setShowMenu(!showMenu)}
       >
-        {!showMenu ? `Categoires` : `Close`}
+        {!showMenu ? `Categories` : `Close`}
       </button>
       {showMenu && (
         <div className="dropdownMenu">
