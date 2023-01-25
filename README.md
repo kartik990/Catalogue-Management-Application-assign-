@@ -32,3 +32,6 @@ This project only one npm pakage react-google-chart for the pie chart functional
 normal javascript and CSS stylings.
 
 The desgin inspiration came from my past projects experiences and some template searching on google.
+
+
+Deployment Link : https://catalogue-managemnet-application.onrender.com/
