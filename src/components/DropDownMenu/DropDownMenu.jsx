@@ -1,10 +1,7 @@
 import { useState } from "react";
 import "./dropDownMenu.css";
 
-const DropDownMenu = ({ categories, setcatagory }) => {
-  //local states
-  const [showMenu, setShowMenu] = useState(false);
-
+const DropDownMenu = ({ categories, setcatagory, showMenu, setShowMenu }) => {
   //to update global state current selected category
   const handleSelectedOption = (category) => {
     setcatagory(category);

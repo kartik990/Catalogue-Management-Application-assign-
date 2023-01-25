@@ -1,9 +1,9 @@
 import Card from "../Card/Card";
 import "./CardGrid.css";
 
-export default function CardGrid({ products, loading }) {
+export default function CardGrid({ products, loading, setShowMenu }) {
   return (
-    <div className="cardgrid">
+    <div className="cardgrid" onClick={() => setShowMenu(false)}>
       <div className="cardGridContainer">
         {loading && <span className="loading">loading...</span>}
         {products.map((product) => (

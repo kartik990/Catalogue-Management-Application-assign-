@@ -14,6 +14,8 @@ const Main = () => {
   const [categories, setCategories] = useState([]);
   const [currentCategory, setCurrentCategory] = useState("all");
 
+  const [showMenu, setShowMenu] = useState(false);
+
   //local states-------------
   const [showChart, setShowChart] = useState(false);
   const [loading, setloading] = useState(false);
@@ -55,8 +57,17 @@ const Main = () => {
           categories={categories}
         />
       )}
-      <NavBar setcatagory={setCurrentCategory} categories={categories} />
-      <CardGrid products={currentProducts} loading={loading} />
+      <NavBar
+        setcatagory={setCurrentCategory}
+        categories={categories}
+        setShowMenu={setShowMenu}
+        showMenu={showMenu}
+      />
+      <CardGrid
+        products={currentProducts}
+        loading={loading}
+        setShowMenu={setShowMenu}
+      />
       <button className="floatingbtn" onClick={() => setShowChart(true)}>
         Analyse
       </button>
