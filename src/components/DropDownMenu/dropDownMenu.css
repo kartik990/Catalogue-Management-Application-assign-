@@ -1,0 +1,57 @@
+.dropdown {
+  position: relative;
+  z-index: 5;
+  width: 200px;
+}
+
+.dropMenuBtn {
+  outline: none;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 40px;
+  border-radius: 5px;
+  background-color: rgb(233, 233, 233);
+  width: auto;
+  color: black;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.dropdownMenu:hover {
+  transform: scale(1.05);
+}
+
+.options {
+  cursor: pointer;
+  width: inherit;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 15px 20px;
+  overflow: hidden;
+}
+
+.options:hover {
+  background-color: #6eccaf;
+}
+
+.active {
+  background-color: #6eccaf;
+}
+
+@media (max-width: 500px) {
+  .dropdown {
+    padding: 0px;
+    width: 100px;
+  }
+  .options {
+    padding: 15px 10px;
+  }
+}

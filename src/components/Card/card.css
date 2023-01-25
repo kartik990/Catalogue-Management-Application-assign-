@@ -1,0 +1,104 @@
+.cardContainer {
+  width: 250px;
+  margin: 40px 20px;
+  border-radius: 10px;
+  background-color: #6eccaf;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.cardImg {
+  width: auto;
+  max-width: 200px;
+  height: 200px;
+  position: relative;
+  top: -40px;
+  border-radius: 10px;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -10px;
+  padding: 0px 30px 20px 30px;
+}
+
+.cardTitle {
+  align-self: flex-start;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.band {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 120%;
+  border-radius: 5px;
+  background-color: rgb(153, 212, 93);
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.price {
+  color: green;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: rgba(91, 71, 22, 0.87);
+}
+
+.review {
+  color: rgb(0, 106, 106);
+  font-size: 0.9rem;
+}
+
+.cardCatagory {
+  align-self: flex-start;
+  padding: 5px;
+  color: rgb(0, 106, 106);
+  font-size: 0.9rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.dec {
+  text-align: left;
+  margin-top: 0px;
+  font-size: 0.85rem;
+  max-width: 200px;
+  overflow: hidden;
+}
+
+.cardbtn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  background-color: inherit;
+  font-weight: 200;
+  color: gray;
+}

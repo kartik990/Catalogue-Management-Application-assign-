@@ -1,0 +1,20 @@
+.cardgrid {
+  margin-top: 50px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardGridContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.loading {
+  font-size: medium;
+  font-size: 20px;
+}

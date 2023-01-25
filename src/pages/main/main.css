@@ -1,0 +1,21 @@
+.mainContainer {
+  background-color: #a5c9ca;
+  min-height: 100vh;
+}
+
+.floatingbtn {
+  color: white;
+  background-color: #344d67;
+  position: fixed;
+  padding: 15px 25px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  bottom: 40px;
+  right: 40px;
+  transition-duration: 0.5s;
+}
+
+.floatingbtn:hover {
+  transform: scale(1.1);
+}

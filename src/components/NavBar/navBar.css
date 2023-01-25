@@ -1,0 +1,50 @@
+.navbar {
+  height: 10vh;
+  color: aliceblue;
+  background-color: #344d67;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  z-index: 5;
+  top: 0;
+}
+
+.navContainer {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: "Indie Flower", cursive;
+  font-weight: 500;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBar {
+  margin-left: 15px;
+  height: 30px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  padding: 0px 10px;
+}
+
+@media (max-width: 500px) {
+  .logo {
+    font-size: 20px;
+  }
+
+  .searchBar {
+    width: 80px;
+  }
+}
